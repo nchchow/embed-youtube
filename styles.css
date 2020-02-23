@@ -1,0 +1,65 @@
+body {
+  margin-top: 0;
+}
+
+/* 
+======================
+NAV BAR
+======================
+*/
+#nav-bar {
+  height: 56px;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+/* 
+======================
+MAIN CONTAINER
+======================
+*/
+#main-container {
+  margin-right: 30%;
+  height: 1000px;
+  width: 100%;
+  background-color: blanchedalmond;
+}
+
+/* 
+======================
+VIDEO 
+======================
+*/
+#video-page-container {
+  float: left;
+}
+
+#video-primary-info-container {
+  height: 117px;
+  width: 732px;
+  background-color: cornflowerblue;
+}
+
+#video-secondary-info-container {
+  height: 167px;
+  width: 732px;
+  background-color: darkkhaki;
+}
+
+#comments-container {
+  height: 250px;
+  width: 732px;
+  background-color: darkseagreen;
+}
+
+/*
+======================
+SIDE BAR
+======================
+*/
+#side-bar {
+  float: right;
+  height: 1000px;
+  width: 30%;
+  background-color: aliceblue;
+}
