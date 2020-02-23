@@ -1,5 +1,6 @@
 body {
   margin-top: 0;
+  margin-left: 0;
 }
 
 /* 
@@ -13,6 +14,16 @@ NAV BAR
   background-color: aquamarine;
 }
 
+#nav-bar-image {
+  height: inherit;
+  width: inherit;
+}
+
+/* #search {
+  height: 26px;
+  width: 225px;
+} */
+
 /* 
 ======================
 MAIN CONTAINER
@@ -20,9 +31,11 @@ MAIN CONTAINER
 */
 #main-container {
   margin-right: 30%;
-  height: 1000px;
+  padding-left: 24px;
+  padding-top: 24px;
+  height: 2000px;
   width: 100%;
-  background-color: blanchedalmond;
+  background-color: whitesmoke;
 }
 
 /* 
@@ -34,6 +47,18 @@ VIDEO
   float: left;
 }
 
+#video-info-container {
+  margin-top: 0;
+  /* height: 284px; */
+  width: 800px;
+}
+
+#video-info-image {
+  /* height: inherit; */
+  width: inherit;
+}
+
+/* 
 #video-primary-info-container {
   height: 117px;
   width: 732px;
@@ -44,12 +69,16 @@ VIDEO
   height: 167px;
   width: 732px;
   background-color: darkkhaki;
-}
+} */
 
 #comments-container {
   height: 250px;
   width: 732px;
   background-color: darkseagreen;
+}
+
+#comments {
+  width: 800px;
 }
 
 /*
@@ -60,6 +89,18 @@ SIDE BAR
 #side-bar {
   float: right;
   height: 1000px;
-  width: 30%;
-  background-color: aliceblue;
+  width: 425px;
+  background-color: whitesmoke;
+}
+
+#side-bar-image {
+  height: 60%;
+  width: inherit;
+  margin-bottom: 0;
+}
+
+#side-bar-image2 {
+  top: -50;
+  height: 60%;
+  width: inherit;
 }
